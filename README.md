@@ -53,7 +53,8 @@ curl -ik --user "workload_user:workload_password" 'https://<hostname of Knox Gat
 
 ## Running the benchmark script
 
-An example of running the benchmark script, using 4 threads and running 25 queries on each thread:
+The example below shows the running of the benchmark script, using 4 threads and running 25 queries on each thread. 
+(of course, you need to specify real configuration to the environment variables KNOX_AUTH, SOLR_WORKER_HOST and KNOX_HOST to make the script to run)
  
 ``` 
 export KNOX_AUTH='my_workload_user:my_workload_password'
