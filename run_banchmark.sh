@@ -23,7 +23,7 @@ if [ $# -ne 2 ]; then
         echo "    export SOLR_WORKER_HOST='solr-cluster-worker0.solr-kno.xcu2-8y8x.dev.cldr.work'"
         echo "    export KNOX_AUTH='user:password'"
         echo ""
-        echo "- the following variables are optional, if you want to reply the cookies"
+        echo "- the following variables are optional, if you want to replay the cookies"
         echo "  sent back after the first curl operation (to set auth tokens)"
         echo "    export KNOX_COOKIE_PATH=./cookies.knox.txt"
         echo "    export SOLR_COOKIE_PATH=./cookies.solr.txt"
